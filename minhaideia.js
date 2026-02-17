@@ -11,9 +11,9 @@ botaoMenu.addEventListener("click", () => {
 
 // codigo para abrir e fechar o modal
 
-const botaoAbrirModal = document.getElementById("botao-comecar-agora");
+const botaoAbrirModal = document.getElementById("botao_comecar_agora");
 const modal = document.getElementById("modal");
-const botaoFecharModal = document.getElementById("botao-fechar-modal");
+const botaoFecharModal = document.getElementById("botao_fechar_modal");
 
 function abrirModal() {
     modal.style.display = "block";

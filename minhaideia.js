@@ -1,12 +1,12 @@
 // codigo para aparecer os links no mobile 
 
-const botaoMenu = document.getElementById("botao-links-mobile");
-const cabecalhoPagina = document.getElementById("cabecalho-pagina");
-const menuPagina = document.getElementById("menu-pagina");
+const botaoMenu = document.getElementById("botao_links_mobile");
+const cabecalhoPagina = document.getElementById("cabecalho_pagina");
+const menuPagina = document.getElementById("menu_pagina");
 
 botaoMenu.addEventListener("click", () => {
     menuPagina.classList.toggle("ativo");
-    cabecalhoPagina.classList.toggle("menu-aberto");
+    cabecalhoPagina.classList.toggle("menu_aberto");
 });
 
 // codigo para abrir e fechar o modal
@@ -29,7 +29,7 @@ botaoFecharModal.addEventListener("click", fecharModal);
 
 // codigo para mudar de pagina pelo botão #botao-voltar-pagina-inicial
 
-const botaoVoltarPaginaInicial = document.getElementById("botao-voltar-pagina-inicial");
+const botaoVoltarPaginaInicial = document.getElementById("botao_voltar_pagina_inicial");
 
 botaoVoltarPaginaInicial.addEventListener("click", () => {
     window.location.href = "minhaideia.html";
@@ -42,8 +42,8 @@ const formularioPagina = document.getElementById("formulario");
 formularioPagina.addEventListener("submit", (event) => {
     event.preventDefault();
 
-const inputIdeia = document.getElementById("input-modal-ideia").value.trim();
-const inputDesejo =document.getElementById("input-modal-desejo").value.trim();
+const inputIdeia = document.getElementById("input_modal_ideia").value.trim();
+const inputDesejo =document.getElementById("input_modal_desejo").value.trim();
 
 if (inputIdeia === "" || inputDesejo === "") {
     alert("Por favor, preencha todos os campos do formulário.");

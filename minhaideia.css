@@ -39,18 +39,6 @@ body {
     cursor: pointer;
 }
 
-.icone_fechar {
-    display: none;
-}
-
-#cabecalho_pagina.menu-aberto .icone_abrir {
-    display: none;
-}
-
-#cabecalho_pagina.menu-aberto .icone_fechar {
-    display: inline;
-}
-
 #menu_pagina.ativo {
     display: flex;
 }

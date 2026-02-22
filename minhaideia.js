@@ -1,12 +1,21 @@
 // codigo para aparecer os links no mobile 
 
 const botaoMenu = document.getElementById("botao_links_mobile");
+const iconesMenu = botaoMenu.querySelector("i");
 const cabecalhoPagina = document.getElementById("cabecalho_pagina");
 const menuPagina = document.getElementById("menu_pagina");
 
 botaoMenu.addEventListener("click", () => {
     menuPagina.classList.toggle("ativo");
     cabecalhoPagina.classList.toggle("menu_aberto");
+
+    if (menuPagina.classList.contains("ativo")) {
+        iconesMenu.classList.remove("fa-bars");
+        iconesMenu.classList.add("fa-x");
+    } else {
+       iconesMenu.classList.remove("fa-x");
+        iconesMenu.classList.add("fa-bars");
+    }
 });
 
 // codigo para abrir e fechar o modal

@@ -41,7 +41,7 @@ botaoFecharModal.addEventListener("click", fecharModal);
 const botaoVoltarPaginaInicial = document.getElementById("botao_voltar_pagina_inicial");
 
 botaoVoltarPaginaInicial.addEventListener("click", () => {
-    window.location.href = "minhaideia.html";
+    window.location.href = "index.html";
 });
 
 // validação do formulário

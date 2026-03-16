@@ -63,7 +63,7 @@ body {
 
 .conteudo_principal {
     width: 100%;
-    height: 90vh;
+    height: auto;
     background: #E6E6FA;
 }
 

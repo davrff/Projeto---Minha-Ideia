@@ -64,6 +64,7 @@ body {
 .conteudo_principal {
     width: 100%;
     height: auto;
+    padding: 60px 0;
     background: #E6E6FA;
 }
 
